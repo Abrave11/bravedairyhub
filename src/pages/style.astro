@@ -4,438 +4,286 @@ import '../styles/global.css';
 ---
 
 <Layout title="Style Tile — Brave Dairy Hub">
-  <main class="max-w-4xl mx-auto px-6 py-16">
+  <main class="max-w-5xl mx-auto px-6 py-16">
 
     <!-- Page header -->
-    <header class="mb-16 border-b border-ink-300 pb-8">
-      <p class="text-sm uppercase tracking-widest text-amber-brand-400 mb-4 font-medium">Style Tile</p>
-      <h1 class="text-5xl md:text-6xl mb-4">Brave Dairy Hub — Visual Language</h1>
+    <header class="mb-20 border-b border-ink-300 pb-10">
+      <p class="text-xs uppercase tracking-[0.2em] text-forest-700 mb-4 font-semibold">Style Tile · v2</p>
+      <h1 class="text-5xl md:text-6xl mb-5">Brave Dairy Hub — Visual Language</h1>
       <p class="text-lg text-ink-700 max-w-2xl">Reference page showing colors, typography, buttons, and components used across the site. Not linked from public navigation.</p>
     </header>
 
     <!-- ============================================
-         CHUNK 2: Color Palette
+         Color Palette
          ============================================ -->
-    <section class="mb-16">
+    <section class="mb-20">
       <h2 class="text-3xl mb-2">Color Palette</h2>
-      <p class="text-ink-700 mb-8">The full set of brand colors. Earthy, grounded, with a warm dairy-inspired accent.</p>
+      <p class="text-ink-700 mb-10">White-forward. Forest green for brand and trust. Amber for accents. Ink for text.</p>
 
       <!-- Forest green scale -->
-      <div class="mb-8">
-        <h3 class="text-lg mb-3 text-ink-700">Forest Green — Primary</h3>
+      <div class="mb-10">
+        <h3 class="text-base mb-4 text-ink-700 font-semibold">Forest Green — Primary</h3>
         <div class="grid grid-cols-5 md:grid-cols-10 gap-2">
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-50 border border-ink-300"></div>
-            <p class="text-xs mt-1 text-ink-500">50</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-100"></div>
-            <p class="text-xs mt-1 text-ink-500">100</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-200"></div>
-            <p class="text-xs mt-1 text-ink-500">200</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-300"></div>
-            <p class="text-xs mt-1 text-ink-500">300</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-400"></div>
-            <p class="text-xs mt-1 text-ink-500">400</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-500"></div>
-            <p class="text-xs mt-1 text-ink-500">500</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-600"></div>
-            <p class="text-xs mt-1 text-ink-500">600</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-700 ring-2 ring-amber-brand-400 ring-offset-2 ring-offset-cream"></div>
-            <p class="text-xs mt-1 font-semibold text-forest-700">700 ★</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-800"></div>
-            <p class="text-xs mt-1 text-ink-500">800</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-forest-900"></div>
-            <p class="text-xs mt-1 text-ink-500">900</p>
-          </div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-50 border border-ink-300"></div><p class="text-xs mt-1 text-ink-500">50</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-100"></div><p class="text-xs mt-1 text-ink-500">100</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-200"></div><p class="text-xs mt-1 text-ink-500">200</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-300"></div><p class="text-xs mt-1 text-ink-500">300</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-400"></div><p class="text-xs mt-1 text-ink-500">400</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-500"></div><p class="text-xs mt-1 text-ink-500">500</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-600"></div><p class="text-xs mt-1 text-ink-500">600</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-700 ring-2 ring-amber-brand-400 ring-offset-2 ring-offset-white"></div><p class="text-xs mt-1 font-semibold text-forest-700">700 ★</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-800"></div><p class="text-xs mt-1 text-ink-500">800</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-forest-900"></div><p class="text-xs mt-1 text-ink-500">900</p></div>
         </div>
       </div>
 
-      <!-- Amber accent scale -->
-      <div class="mb-8">
-        <h3 class="text-lg mb-3 text-ink-700">Amber — Accent</h3>
+      <!-- Amber accent -->
+      <div class="mb-10">
+        <h3 class="text-base mb-4 text-ink-700 font-semibold">Amber — Accent</h3>
         <div class="grid grid-cols-5 md:grid-cols-6 gap-2">
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-amber-brand-50 border border-ink-300"></div>
-            <p class="text-xs mt-1 text-ink-500">50</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-amber-brand-100"></div>
-            <p class="text-xs mt-1 text-ink-500">100</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-amber-brand-200"></div>
-            <p class="text-xs mt-1 text-ink-500">200</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-amber-brand-300"></div>
-            <p class="text-xs mt-1 text-ink-500">300</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-amber-brand-400 ring-2 ring-forest-700 ring-offset-2 ring-offset-cream"></div>
-            <p class="text-xs mt-1 font-semibold text-amber-brand-500">400 ★</p>
-          </div>
-          <div class="text-center">
-            <div class="h-16 rounded-md bg-amber-brand-500"></div>
-            <p class="text-xs mt-1 text-ink-500">500</p>
-          </div>
+          <div class="text-center"><div class="h-16 rounded-md bg-amber-brand-50 border border-ink-300"></div><p class="text-xs mt-1 text-ink-500">50</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-amber-brand-100"></div><p class="text-xs mt-1 text-ink-500">100</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-amber-brand-200"></div><p class="text-xs mt-1 text-ink-500">200</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-amber-brand-300"></div><p class="text-xs mt-1 text-ink-500">300</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-amber-brand-400 ring-2 ring-forest-700 ring-offset-2 ring-offset-white"></div><p class="text-xs mt-1 font-semibold text-amber-brand-500">400 ★</p></div>
+          <div class="text-center"><div class="h-16 rounded-md bg-amber-brand-500"></div><p class="text-xs mt-1 text-ink-500">500</p></div>
         </div>
       </div>
 
-      <!-- Sage + Cream + Ink -->
-      <div class="grid md:grid-cols-3 gap-6">
-
+      <!-- Sage + Ink -->
+      <div class="grid md:grid-cols-2 gap-8">
         <div>
-          <h3 class="text-lg mb-3 text-ink-700">Sage — Soft backgrounds</h3>
-          <div class="space-y-2">
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-sage-50 border border-ink-300"></div>
-              <span class="text-sm text-ink-700">sage-50</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-sage-100"></div>
-              <span class="text-sm text-ink-700">sage-100</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-sage-200"></div>
-              <span class="text-sm text-ink-700">sage-200</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-sage-300"></div>
-              <span class="text-sm text-ink-700">sage-300</span>
-            </div>
+          <h3 class="text-base mb-4 text-ink-700 font-semibold">Sage — Section tints</h3>
+          <div class="grid grid-cols-4 gap-2">
+            <div class="text-center"><div class="h-14 rounded bg-sage-50 border border-ink-300"></div><p class="text-xs mt-1 text-ink-500">50</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-sage-100"></div><p class="text-xs mt-1 text-ink-500">100</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-sage-200"></div><p class="text-xs mt-1 text-ink-500">200</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-sage-300"></div><p class="text-xs mt-1 text-ink-500">300</p></div>
           </div>
         </div>
 
         <div>
-          <h3 class="text-lg mb-3 text-ink-700">Cream — Page background</h3>
-          <div class="space-y-2">
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-cream border border-ink-300"></div>
-              <span class="text-sm text-ink-700">cream</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-cream-dark border border-ink-300"></div>
-              <span class="text-sm text-ink-700">cream-dark</span>
-            </div>
+          <h3 class="text-base mb-4 text-ink-700 font-semibold">Ink — Text &amp; borders</h3>
+          <div class="grid grid-cols-6 gap-2">
+            <div class="text-center"><div class="h-14 rounded bg-ink-900"></div><p class="text-xs mt-1 text-ink-500">900</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-ink-700"></div><p class="text-xs mt-1 text-ink-500">700</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-ink-500"></div><p class="text-xs mt-1 text-ink-500">500</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-ink-300"></div><p class="text-xs mt-1 text-ink-500">300</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-ink-100"></div><p class="text-xs mt-1 text-ink-500">100</p></div>
+            <div class="text-center"><div class="h-14 rounded bg-ink-50 border border-ink-300"></div><p class="text-xs mt-1 text-ink-500">50</p></div>
           </div>
         </div>
-
-        <div>
-          <h3 class="text-lg mb-3 text-ink-700">Ink — Text + UI</h3>
-          <div class="space-y-2">
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-ink-900"></div>
-              <span class="text-sm text-ink-700">ink-900</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-ink-700"></div>
-              <span class="text-sm text-ink-700">ink-700</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-ink-500"></div>
-              <span class="text-sm text-ink-700">ink-500</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-ink-300"></div>
-              <span class="text-sm text-ink-700">ink-300</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="h-10 w-10 rounded bg-ink-100 border border-ink-300"></div>
-              <span class="text-sm text-ink-700">ink-100</span>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
     <!-- ============================================
-         CHUNK 3: Typography
+         Typography
          ============================================ -->
-    <section class="mb-16">
+    <section class="mb-20">
       <h2 class="text-3xl mb-2">Typography</h2>
-      <p class="text-ink-700 mb-8">Fraunces for headings — editorial, confident. Inter for body — clean, extremely readable on mobile.</p>
+      <p class="text-ink-700 mb-10">Inter throughout — bold, crisp, corporate. Fraunces reserved for editorial moments like blockquotes.</p>
 
       <div class="space-y-10">
 
         <div class="border-l-2 border-amber-brand-400 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Style reference</p>
-          <p class="text-sm uppercase tracking-widest text-amber-brand-400 font-medium">Editorial Eyebrow Label</p>
-          <p class="text-xs text-ink-500 mt-2 italic">Use sparingly above major section headings.</p>
+          <p class="text-xs uppercase tracking-[0.2em] text-forest-700 font-semibold">Eyebrow label</p>
+          <p class="text-xs text-ink-500 mt-2 italic">Forest green caps. Small and tight. Sits above major headings.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Heading 1 — page titles</p>
           <h1 class="text-5xl md:text-6xl mb-1">Practical dairy expertise, grounded in fieldwork.</h1>
-          <p class="text-xs text-ink-500 mt-2 italic">Fraunces, 600 weight, tight leading. Mobile: 3rem. Desktop: 3.75rem.</p>
+          <p class="text-xs text-ink-500 mt-2 italic">Inter 800, tight tracking. Mobile: 3rem. Desktop: 3.75rem.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Heading 2 — section titles</p>
           <h2 class="text-4xl mb-1">What I do on the farm</h2>
-          <p class="text-xs text-ink-500 mt-2 italic">Fraunces, 600 weight. Used for major sections within a page.</p>
+          <p class="text-xs text-ink-500 mt-2 italic">Inter 700.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Heading 3 — subsections</p>
           <h3 class="text-2xl mb-1">Reproduction &amp; fertility</h3>
-          <p class="text-xs text-ink-500 mt-2 italic">Used for service items, article subheadings, and cards.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Lead paragraph</p>
           <p class="text-xl text-ink-700 leading-relaxed max-w-2xl">After years of studying and working with dairy cattle across Uganda and Israel, I help farmers improve milk yield, herd health, and farm economics through field-tested, practical methods.</p>
-          <p class="text-xs text-ink-500 mt-2 italic">Use directly under an H1 to set context. One per page.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Body text</p>
-          <p class="max-w-2xl">Israel's dairy industry produces some of the highest yields per cow in the world, largely through disciplined nutrition, climate-adapted housing, and tight reproductive management. These same principles apply to Ugandan farms, with local adaptations. I bring that experience to farm visits, training sessions, and on-the-ground problem-solving.</p>
-          <p class="text-xs text-ink-500 mt-2 italic">Default body. Inter 400, 1.6 line-height, max-width for readability.</p>
-        </div>
-
-        <div class="border-l-2 border-ink-300 pl-6">
-          <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Small &amp; muted text</p>
-          <p class="text-sm text-ink-500">Published 12 March 2026 · Dairy nutrition · 4 min read</p>
-          <p class="text-xs text-ink-500 mt-2 italic">For metadata, captions, and footnotes.</p>
+          <p class="max-w-2xl">Israel's dairy industry produces some of the highest yields per cow in the world, largely through disciplined nutrition, climate-adapted housing, and tight reproductive management. These same principles apply to Ugandan farms, with local adaptations.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
           <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Inline links</p>
           <p class="max-w-2xl">
             Inline links look like
-            <a href="#" class="text-forest-700 underline decoration-amber-brand-400 decoration-2 underline-offset-4 hover:text-forest-900 hover:decoration-forest-700 transition-colors">this example link</a>
-            — forest green with an amber underline that shifts on hover.
+            <a href="#" class="text-forest-700 underline decoration-amber-brand-400 decoration-2 underline-offset-4 hover:text-forest-900 transition-colors">this example link</a>
+            — forest green with an amber underline.
           </p>
-          <p class="text-xs text-ink-500 mt-2 italic">Readable, branded, and clearly clickable without being noisy.</p>
         </div>
 
         <div class="border-l-2 border-ink-300 pl-6">
-          <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Blockquote</p>
-          <blockquote class="border-l-4 border-amber-brand-400 pl-6 py-2 my-2 max-w-2xl">
-            <p class="text-xl font-serif italic text-ink-900 leading-relaxed">"Brave helped us rethink our milking routine from the ground up. Yields rose within three months."</p>
+          <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">Blockquote — editorial moment</p>
+          <blockquote class="border-l-4 border-amber-brand-400 pl-6 py-2 max-w-2xl">
+            <p class="font-editorial text-2xl italic text-ink-900 leading-relaxed">"Brave helped us rethink our milking routine from the ground up. Yields rose within three months."</p>
             <footer class="text-sm text-ink-500 mt-3 not-italic">— Farm owner, Mbarara</footer>
           </blockquote>
-          <p class="text-xs text-ink-500 mt-2 italic">For testimonials and pull quotes.</p>
+          <p class="text-xs text-ink-500 mt-2 italic">Fraunces serif here, used sparingly for quotes and testimonials.</p>
         </div>
 
       </div>
     </section>
 
     <!-- ============================================
-     CHUNK 4: Buttons
-     ============================================ -->
-<section class="mb-16">
-  <h2 class="text-3xl mb-2">Buttons</h2>
-  <p class="text-ink-700 mb-8">Four variants. Each has a hover state — move your mouse over them to see the transition.</p>
+         Buttons
+         ============================================ -->
+    <section class="mb-20">
+      <h2 class="text-3xl mb-2">Buttons</h2>
+      <p class="text-ink-700 mb-10">Four variants. Hover to see transitions.</p>
 
-  <div class="space-y-8">
+      <div class="space-y-8">
 
-    <!-- Primary -->
-    <div class="border-l-2 border-ink-300 pl-6">
-      <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Primary — main call to action</p>
-      <div class="flex flex-wrap gap-3 items-center">
-        <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-forest-700 text-cream font-medium hover:bg-forest-800 transition-colors">
-          Book a consultation
-        </a>
-        <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-forest-700 text-cream font-medium hover:bg-forest-800 transition-colors">
-          Get in touch
-          <span aria-hidden="true">→</span>
-        </a>
+        <div class="border-l-2 border-ink-300 pl-6">
+          <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Primary — main CTA</p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-forest-700 text-white font-medium shadow-sm hover:bg-forest-800 hover:shadow-md transition-all">Book a consultation</a>
+            <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-forest-700 text-white font-medium shadow-sm hover:bg-forest-800 hover:shadow-md transition-all">Get in touch <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="border-l-2 border-ink-300 pl-6">
+          <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Secondary — amber accent</p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-amber-brand-400 text-ink-900 font-medium shadow-sm hover:bg-amber-brand-500 hover:text-white hover:shadow-md transition-all">Download study guide</a>
+            <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-amber-brand-400 text-ink-900 font-medium shadow-sm hover:bg-amber-brand-500 hover:text-white hover:shadow-md transition-all">Subscribe to newsletter</a>
+          </div>
+        </div>
+
+        <div class="border-l-2 border-ink-300 pl-6">
+          <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Outline — tertiary</p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md border-2 border-forest-700 text-forest-700 font-medium hover:bg-forest-700 hover:text-white transition-colors">Read more</a>
+            <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md border-2 border-forest-700 text-forest-700 font-medium hover:bg-forest-700 hover:text-white transition-colors">View all projects</a>
+          </div>
+        </div>
+
+        <div class="border-l-2 border-ink-300 pl-6">
+          <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Text link with arrow</p>
+          <div class="flex flex-wrap gap-6">
+            <a href="#" class="group inline-flex items-center gap-2 text-forest-700 font-medium hover:text-forest-900 transition-colors">Read the full case study <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></a>
+            <a href="#" class="group inline-flex items-center gap-2 text-forest-700 font-medium hover:text-forest-900 transition-colors">Explore resources <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
       </div>
-      <p class="text-xs text-ink-500 mt-3 italic">One per section maximum. This is what visitors should click.</p>
-    </div>
+    </section>
 
-    <!-- Secondary -->
-    <div class="border-l-2 border-ink-300 pl-6">
-      <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Secondary — supporting actions</p>
-      <div class="flex flex-wrap gap-3 items-center">
-        <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-amber-brand-400 text-ink-900 font-medium hover:bg-amber-brand-500 hover:text-cream transition-colors">
-          Download study guide
-        </a>
-        <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-amber-brand-400 text-ink-900 font-medium hover:bg-amber-brand-500 hover:text-cream transition-colors">
-          Subscribe to newsletter
-        </a>
-      </div>
-      <p class="text-xs text-ink-500 mt-3 italic">Amber accent. Use for secondary CTAs: downloads, newsletter, etc.</p>
-    </div>
+    <!-- ============================================
+         Stats + Cards — on light sage section for contrast
+         ============================================ -->
+    <section class="mb-20">
+      <h2 class="text-3xl mb-2">Stats &amp; Cards</h2>
+      <p class="text-ink-700 mb-10">Floating white cards with soft shadows — lift on hover for a tactile, product-like feel.</p>
 
-    <!-- Outline -->
-    <div class="border-l-2 border-ink-300 pl-6">
-      <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Outline — tertiary or secondary nav</p>
-      <div class="flex flex-wrap gap-3 items-center">
-        <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md border-2 border-forest-700 text-forest-700 font-medium hover:bg-forest-700 hover:text-cream transition-colors">
-          Read more
-        </a>
-        <a href="#" class="inline-flex items-center gap-2 px-6 py-3 rounded-md border-2 border-forest-700 text-forest-700 font-medium hover:bg-forest-700 hover:text-cream transition-colors">
-          View all projects
-        </a>
-      </div>
-      <p class="text-xs text-ink-500 mt-3 italic">Quieter. For "read more" links, secondary navigation, and paired alongside a primary button.</p>
-    </div>
-
-    <!-- Text link with arrow -->
-    <div class="border-l-2 border-ink-300 pl-6">
-      <p class="text-xs uppercase tracking-widest text-ink-500 mb-3">Text link — inline "read more"</p>
-      <div class="flex flex-wrap gap-6 items-center">
-        <a href="#" class="group inline-flex items-center gap-2 text-forest-700 font-medium hover:text-forest-900 transition-colors">
-          Read the full case study
-          <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-        </a>
-        <a href="#" class="group inline-flex items-center gap-2 text-forest-700 font-medium hover:text-forest-900 transition-colors">
-          Explore resources
-          <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-        </a>
-      </div>
-      <p class="text-xs text-ink-500 mt-3 italic">No background. The arrow slides right on hover — a subtle invitation.</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============================================
-     CHUNK 5: Stats + Cards
-     ============================================ -->
-<section class="mb-16">
-  <h2 class="text-3xl mb-2">Stats &amp; Cards</h2>
-  <p class="text-ink-700 mb-8">Reusable components for data callouts, portfolio items, resources, and blog posts.</p>
-
-  <!-- Stat callouts -->
-  <div class="mb-12">
-    <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Stat callouts</p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-
-      <div class="bg-sage-50 border border-sage-200 rounded-lg p-6">
-        <p class="text-4xl font-serif font-semibold text-forest-700">12,000+</p>
-        <p class="text-sm text-ink-700 mt-1">litres per cow / year in leading Israeli dairies</p>
+      <!-- Stat callouts on sage tint -->
+      <div class="mb-12 bg-sage-50 rounded-2xl p-8 md:p-10 border border-sage-100">
+        <p class="text-xs uppercase tracking-[0.2em] text-forest-700 mb-6 font-semibold">Proof points</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div>
+            <p class="text-5xl font-bold text-forest-700 mb-2">12,000+</p>
+            <p class="text-sm text-ink-700">litres per cow / year in leading Israeli dairies</p>
+          </div>
+          <div>
+            <p class="text-5xl font-bold text-forest-700 mb-2">95%</p>
+            <p class="text-sm text-ink-700">of Israeli farms use integrated herd monitoring</p>
+          </div>
+          <div>
+            <p class="text-5xl font-bold text-forest-700 mb-2">6</p>
+            <p class="text-sm text-ink-700">core services — from planning to reproduction</p>
+          </div>
+        </div>
       </div>
 
-      <div class="bg-sage-50 border border-sage-200 rounded-lg p-6">
-        <p class="text-4xl font-serif font-semibold text-forest-700">95%</p>
-        <p class="text-sm text-ink-700 mt-1">of Israeli farms use integrated herd monitoring</p>
+      <!-- Project cards -->
+      <div class="mb-12">
+        <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Project cards — floating on white</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          <a href="#" class="group block bg-white rounded-xl overflow-hidden border border-ink-300 shadow-[0_1px_2px_rgba(15,26,20,0.04),0_4px_12px_rgba(15,26,20,0.06)] hover:shadow-[0_2px_4px_rgba(15,26,20,0.06),0_12px_28px_rgba(15,26,20,0.10)] hover:-translate-y-1 transition-all duration-200">
+            <div class="aspect-video bg-sage-100 flex items-center justify-center">
+              <span class="text-sage-300 text-sm">[ project image ]</span>
+            </div>
+            <div class="p-6">
+              <p class="text-xs uppercase tracking-[0.2em] text-forest-700 mb-2 font-semibold">Farm design · 2024</p>
+              <h3 class="text-xl mb-2">Dairy farm layout — Yotvata, Israel</h3>
+              <p class="text-sm text-ink-700 mb-4">Site visit and layout review for a 400-cow facility adapting to arid climate conditions.</p>
+              <span class="inline-flex items-center gap-2 text-forest-700 font-medium text-sm">Read case study <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <a href="#" class="group block bg-white rounded-xl overflow-hidden border border-ink-300 shadow-[0_1px_2px_rgba(15,26,20,0.04),0_4px_12px_rgba(15,26,20,0.06)] hover:shadow-[0_2px_4px_rgba(15,26,20,0.06),0_12px_28px_rgba(15,26,20,0.10)] hover:-translate-y-1 transition-all duration-200">
+            <div class="aspect-video bg-sage-100 flex items-center justify-center">
+              <span class="text-sage-300 text-sm">[ project image ]</span>
+            </div>
+            <div class="p-6">
+              <p class="text-xs uppercase tracking-[0.2em] text-forest-700 mb-2 font-semibold">Nutrition · 2024</p>
+              <h3 class="text-xl mb-2">Ration redesign — Mbarara smallholder co-op</h3>
+              <p class="text-sm text-ink-700 mb-4">Redesigned feed rations for 24 smallholder farms, lifting average yield by 28% over six months.</p>
+              <span class="inline-flex items-center gap-2 text-forest-700 font-medium text-sm">Read case study <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+        </div>
       </div>
 
-      <div class="bg-sage-50 border border-sage-200 rounded-lg p-6">
-        <p class="text-4xl font-serif font-semibold text-forest-700">6</p>
-        <p class="text-sm text-ink-700 mt-1">core services — from planning to reproduction</p>
+      <!-- Resource cards -->
+      <div class="mb-12">
+        <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Resource cards — compact</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+          <a href="#" class="group flex items-start gap-4 bg-white border border-ink-300 rounded-xl p-5 shadow-[0_1px_2px_rgba(15,26,20,0.04),0_4px_12px_rgba(15,26,20,0.06)] hover:shadow-[0_2px_4px_rgba(15,26,20,0.06),0_12px_28px_rgba(15,26,20,0.10)] hover:-translate-y-0.5 transition-all duration-200">
+            <div class="flex-shrink-0 h-12 w-12 rounded-lg bg-amber-brand-100 text-amber-brand-500 flex items-center justify-center font-bold text-sm">PDF</div>
+            <div class="flex-1 min-w-0">
+              <p class="text-xs uppercase tracking-widest text-ink-500 mb-1">Nutrition · Study guide</p>
+              <h3 class="text-base mb-1">Feed ration planning for small dairies</h3>
+              <p class="text-sm text-ink-500">12 pages · Free download</p>
+            </div>
+          </a>
+
+          <a href="#" class="group flex items-start gap-4 bg-white border border-ink-300 rounded-xl p-5 shadow-[0_1px_2px_rgba(15,26,20,0.04),0_4px_12px_rgba(15,26,20,0.06)] hover:shadow-[0_2px_4px_rgba(15,26,20,0.06),0_12px_28px_rgba(15,26,20,0.10)] hover:-translate-y-0.5 transition-all duration-200">
+            <div class="flex-shrink-0 h-12 w-12 rounded-lg bg-amber-brand-100 text-amber-brand-500 flex items-center justify-center font-bold text-sm">PDF</div>
+            <div class="flex-1 min-w-0">
+              <p class="text-xs uppercase tracking-widest text-ink-500 mb-1">Reproduction · Factsheet</p>
+              <h3 class="text-base mb-1">Heat detection — quick reference card</h3>
+              <p class="text-sm text-ink-500">2 pages · Free download</p>
+            </div>
+          </a>
+
+        </div>
       </div>
 
-    </div>
-    <p class="text-xs text-ink-500 mt-3 italic">For proof points and credibility. Use 2–4 in a row; never 1 alone.</p>
-  </div>
+      <!-- Blog post list -->
+      <div>
+        <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Blog post — editorial list</p>
+        <a href="#" class="group block py-6 border-b border-ink-300 hover:border-forest-700 transition-colors">
+          <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">12 March 2026 · Nutrition · 4 min read</p>
+          <h3 class="text-2xl mb-2 group-hover:text-forest-700 transition-colors">Why feed by-products outperform imported concentrates for Ugandan smallholders</h3>
+          <p class="text-ink-700 mb-3 max-w-2xl">Brewers' grain, maize bran, and cottonseed cake are often dismissed as "low quality." Done right, they outperform imported concentrates on both yield and economics.</p>
+          <span class="inline-flex items-center gap-2 text-forest-700 font-medium text-sm">Read article <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></span>
+        </a>
+      </div>
 
-  <!-- Portfolio / Project card -->
-  <div class="mb-12">
-    <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Project card — for portfolio</p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    </section>
 
-      <a href="#" class="group block bg-cream-dark border border-ink-300 rounded-lg overflow-hidden hover:border-forest-700 transition-colors">
-        <div class="aspect-video bg-sage-200 flex items-center justify-center">
-          <span class="text-sage-300 text-sm">[ project image ]</span>
-        </div>
-        <div class="p-6">
-          <p class="text-xs uppercase tracking-widest text-amber-brand-400 mb-2 font-medium">Farm design · 2024</p>
-          <h3 class="text-xl mb-2 group-hover:text-forest-800 transition-colors">Dairy farm layout — Yotvata, Israel</h3>
-          <p class="text-sm text-ink-700 mb-4">Site visit and layout review for a 400-cow facility adapting to arid climate conditions.</p>
-          <span class="inline-flex items-center gap-2 text-forest-700 font-medium text-sm">
-            Read case study
-            <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-          </span>
-        </div>
-      </a>
-
-      <a href="#" class="group block bg-cream-dark border border-ink-300 rounded-lg overflow-hidden hover:border-forest-700 transition-colors">
-        <div class="aspect-video bg-sage-200 flex items-center justify-center">
-          <span class="text-sage-300 text-sm">[ project image ]</span>
-        </div>
-        <div class="p-6">
-          <p class="text-xs uppercase tracking-widest text-amber-brand-400 mb-2 font-medium">Nutrition · 2024</p>
-          <h3 class="text-xl mb-2 group-hover:text-forest-800 transition-colors">Ration redesign — Mbarara smallholder co-op</h3>
-          <p class="text-sm text-ink-700 mb-4">Redesigned feed rations for 24 smallholder farms, lifting average yield by 28% over six months.</p>
-          <span class="inline-flex items-center gap-2 text-forest-700 font-medium text-sm">
-            Read case study
-            <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-          </span>
-        </div>
-      </a>
-
-    </div>
-    <p class="text-xs text-ink-500 mt-3 italic">Whole card is clickable. Hover to see the border + arrow animate.</p>
-  </div>
-
-  <!-- Resource card -->
-  <div class="mb-12">
-    <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Resource card — for library</p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-
-      <a href="#" class="group flex items-start gap-4 bg-cream-dark border border-ink-300 rounded-lg p-5 hover:border-amber-brand-400 transition-colors">
-        <div class="flex-shrink-0 h-12 w-12 rounded bg-amber-brand-100 text-amber-brand-500 flex items-center justify-center font-serif font-bold text-lg">
-          PDF
-        </div>
-        <div class="flex-1 min-w-0">
-          <p class="text-xs uppercase tracking-widest text-ink-500 mb-1">Nutrition · Study guide</p>
-          <h3 class="text-base mb-1 group-hover:text-forest-800 transition-colors">Feed ration planning for small dairies</h3>
-          <p class="text-sm text-ink-500">12-page guide · Free download</p>
-        </div>
-      </a>
-
-      <a href="#" class="group flex items-start gap-4 bg-cream-dark border border-ink-300 rounded-lg p-5 hover:border-amber-brand-400 transition-colors">
-        <div class="flex-shrink-0 h-12 w-12 rounded bg-amber-brand-100 text-amber-brand-500 flex items-center justify-center font-serif font-bold text-lg">
-          PDF
-        </div>
-        <div class="flex-1 min-w-0">
-          <p class="text-xs uppercase tracking-widest text-ink-500 mb-1">Reproduction · Factsheet</p>
-          <h3 class="text-base mb-1 group-hover:text-forest-800 transition-colors">Heat detection — quick reference card</h3>
-          <p class="text-sm text-ink-500">2 pages · Free download</p>
-        </div>
-      </a>
-
-    </div>
-    <p class="text-xs text-ink-500 mt-3 italic">Compact horizontal layout. The "PDF" badge gives instant recognition of what's behind the link.</p>
-  </div>
-
-  <!-- Blog post card -->
-  <div>
-    <p class="text-xs uppercase tracking-widest text-ink-500 mb-4">Blog post card — for articles</p>
-    <div class="grid grid-cols-1 gap-4">
-
-      <a href="#" class="group block py-6 border-b border-ink-300 hover:border-forest-700 transition-colors">
-        <p class="text-xs uppercase tracking-widest text-ink-500 mb-2">12 March 2026 · Nutrition · 4 min read</p>
-        <h3 class="text-2xl mb-2 group-hover:text-forest-800 transition-colors">Why feed by-products outperform imported concentrates for Ugandan smallholders</h3>
-        <p class="text-ink-700 mb-3 max-w-2xl">Brewers' grain, maize bran, and cottonseed cake are often dismissed as "low quality." Done right, they outperform imported concentrates on both yield and economics.</p>
-        <span class="inline-flex items-center gap-2 text-forest-700 font-medium text-sm">
-          Read article
-          <span class="inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-        </span>
-      </a>
-
-    </div>
-    <p class="text-xs text-ink-500 mt-3 italic">Editorial, no heavy cards. Works as a list for the blog index page.</p>
-  </div>
-
-</section>
-
-<!-- Footer note -->
-<footer class="mt-20 pt-8 border-t border-ink-300 text-center">
-  <p class="text-sm text-ink-500">End of Style Tile · Brave Dairy Hub visual system</p>
-</footer>
+    <!-- Footer note -->
+    <footer class="mt-20 pt-8 border-t border-ink-300 text-center">
+      <p class="text-sm text-ink-500">End of Style Tile · Brave Dairy Hub visual system</p>
+    </footer>
 
   </main>
 </Layout>

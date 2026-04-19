@@ -15,7 +15,7 @@
   --color-forest-800: #1a3c24;
   --color-forest-900: #16301e;
 
-  /* Sage: softer green for backgrounds and cards */
+  /* Sage: soft green for section backgrounds and tints */
   --color-sage-50: #f6f8f4;
   --color-sage-100: #e7ede1;
   --color-sage-200: #ccd9c2;
@@ -29,21 +29,23 @@
   --color-amber-brand-400: #d4942a;  /* our accent amber */
   --color-amber-brand-500: #b2771f;
 
-  /* Cream: warm off-white background */
-  --color-cream: #faf6ef;
-  --color-cream-dark: #f3ede1;
-
-  /* Neutral charcoal for text */
-  --color-ink-900: #1a1a1a;
-  --color-ink-700: #3d3d3d;
-  --color-ink-500: #6b6b6b;
-  --color-ink-300: #c4c4c4;
-  --color-ink-100: #ededed;
+  /* Neutral ink scale for text + UI */
+  --color-ink-900: #0f1a14;  /* headings and strong text */
+  --color-ink-700: #3d4a43;
+  --color-ink-500: #6b766f;
+  --color-ink-300: #d4d9d6;
+  --color-ink-100: #eef1ef;
+  --color-ink-50:  #f7f9f8;
 
   /* === TYPOGRAPHY === */
 
   --font-serif: "Fraunces", Georgia, serif;
   --font-sans: "Inter", system-ui, sans-serif;
+
+  /* === SHADOWS === */
+
+  --shadow-card: 0 1px 2px rgba(15, 26, 20, 0.04), 0 4px 12px rgba(15, 26, 20, 0.06);
+  --shadow-card-hover: 0 2px 4px rgba(15, 26, 20, 0.06), 0 12px 28px rgba(15, 26, 20, 0.10);
 }
 
 /* === GLOBAL DEFAULTS === */
@@ -54,16 +56,25 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-cream);
+  background-color: #ffffff;  /* bright white — Afimilk-style */
   color: var(--color-ink-900);
   -webkit-font-smoothing: antialiased;
   line-height: 1.6;
 }
 
+/* Headings now use Inter (sans) by default — corporate, crisp */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  font-weight: 600;
+  font-family: var(--font-sans);
+  font-weight: 700;
   line-height: 1.15;
-  letter-spacing: -0.01em;
-  color: var(--color-forest-700);
+  letter-spacing: -0.02em;
+  color: var(--color-ink-900);
+}
+
+h1 { font-weight: 800; letter-spacing: -0.03em; }
+
+/* Fraunces reserved for editorial moments: blockquotes, special labels */
+.font-editorial {
+  font-family: var(--font-serif);
+  font-weight: 500;
 }
